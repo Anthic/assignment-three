@@ -25,6 +25,7 @@
                 primary:'#ABEF5F',
                 secondary: '#ABEF5F80',
                 text:'#212121',
+                background:'rgb(244, 244, 244)'
                 },
                 fontFamily: {
                     manrope:'Manrope',
@@ -38,7 +39,7 @@
 </head>
 <body class="font-manrope">
     <!-- header part start here -->
-     <header class=" w-11/12 mx-auto">
+     <header class=" w-11/12 mx-auto bg-gradient-to-t from-[#FFFFFF100] to-[#FFFFFF0]">
         <!-- nav bar part start -->
 
         <nav class="">
@@ -92,15 +93,25 @@
 
 
 
-
-
-
-
-
-
-
-
            <!-- nav bar part end -->
+
+        <!-- banner part start here -->
+        <section class="w-11/12 mx-auto flex flex-col justify-center items-center">
+            <div class=" ">
+              <img src="./image/banner.png" alt="">
+            </div>
+            <h1 class="text-text text-2xl lg:text-4xl  font-extrabold text-center py-4">A barn house of this design has a <br> striking appearance</h1>
+            <p class="text-[rgb(73, 73, 73)] text-xs lg:text-xs text-center font-bold py-2">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+            <div class="flex justify-center items-center gap-2 bg-secondary lg:py-2 lg:px-3 rounded-3xl py-2 px-9 my-4">
+              <a class="font-extrabold text-[#1C1C1C]">Book Consult</a>                     
+              <span class="bg-primary w-7 h-7 p-1 rounded-2xl text-center text-black text-sm  "><i class="fa-solid fa-arrow-right -rotate-45 "></i></span>       
+            </div>
+        </section>
+
+
+
+        <!-- banner part end here -->
+
      </header>
     <!-- header part end here -->
 
@@ -115,7 +126,73 @@
 
 
     <!-- main part start here -->
-    <main>
+    <main class="bg-background py-6 my-14">
+
+      <!-- we design part start here -->
+
+        <section class="w-11/12 mx-auto relative">
+          
+          <div class="lg:flex lg:justify-center lg:items-center gap-8  py-6">
+            <!-- text part here -->
+            <div class="">
+
+              <div class=" hidden lg:block  w-2/12 py-2 absolute left-[-30px] top-[-10px]">
+                <img src="./image/Vector.png" alt="">
+              </div>
+              <button class="bg-[#FFFFFF] px-2 py-2 rounded-2xl text-xs font-bold text-[#494949] my-1"><i class="fa-solid fa-arrow-right mr-1"></i>About Us</button>
+              <h2 class="text-text font-extrabold text-3xl my-3">We design thoughtful,<br> liveable spaces</h2>
+              <p class="text-[#494949] font-bold text-xs my-3">The barn house captivates with its blend of rustic charm and <br>
+                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+                <div class="card card-side bg-base-100  gap-5 p-5 my-6">
+                  <figure class="flex-none">
+                    <img class=""
+                      src="./image/commercial.png"
+                      alt="" />
+                  </figure>
+                  <div class="">
+                    <h2 class="card-title text-lg font-extrabold text-[#494949]">Commercial</h2>
+                    <p class="text-sm font-semibold text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+
+                  </div>
+                </div>
+
+
+                <div class="card card-side bg-base-100  gap-5 p-5 my-6">
+                  <figure class="flex-none">
+                    <img class=""
+                      src="./image/residential.png"
+                      alt="" />
+                  </figure>
+                  <div class="">
+                    <h2 class="card-title text-lg font-extrabold text-[#494949]">Residential</h2>
+                    <p class="text-sm font-semibold text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+
+                  </div>
+                </div>
+
+
+            </div>
+             <!-- text part here -->
+  
+            <!-- picture part here -->
+             <div class="">
+                <img class="object-none rounded-xl " src="./image/Rectangle.png" alt="">
+             </div>
+             <!-- picture part here -->
+          </div>
+        </section>
+
+      <!-- we design part end here -->
+
+
+      <!-- our work process part start here  -->
+
+      <!-- our work process part end here  -->
+
+
+
+
 
     </main>
   <!-- main part end here -->
