@@ -262,63 +262,65 @@
       </div>
       <!-- upper part -->
 
-
-      <div class="grid grid-cols-1 lg:grid-cols-3 lg:justify-around   gap-7">
-        <!-- first image -->
-        <div class="flex lg:flex-row  flex-col     gap-6 py-3 px-3 border-2 border-[#E9E9E9] rounded-lg col-span-2 w-full" >
-       
-          <img class="object-cover" src="./image/img1.png" alt="">
-       
-          
-                             
-          <div class="flex flex-col gap-3 lg:pt-5">
-            <h5 class="font-extrabold text-lg text-[#494949]">Commercial</h5>
-            <p class="text-xs font-bold text-[#737373]  "> The barn house captivates with its blend of rustic charm <br>and modern. The barn house captivates with its blend of <br> rustic charm and modern .</p>
-            <div class="flex  gap-2 ">
-              <a class="font-extrabold text-text">View Details</a>                     
-              <span class="bg-primary w-7 h-7 p-1 rounded-2xl text-center text-black text-sm  "><i class="fa-solid fa-arrow-right -rotate-45 "></i></span>       
+      <div class="grid lg:grid-cols-4 sm:grid-cols-1 justify-center  items-center">
+        <!-- card part -->
+        <div class="flex lg:flex-row  lg:col-span-3 flex-col">
+          <figure class=" ">
+            <img class="w-full"
+              src="./image/img1.png"
+              alt="Movie" />
+          </figure>
+          <div class="flex flex-col ">
+            <h2 class="">New movie is released!</h2>
+            <p>Click the button to watch on Jetflix app.</p>
+            <div class="flex  gap-3 ">
+              
+              <button class="">View Details</button>
+              <span class="bg-primary w-7 h-7 p-1 rounded-2xl text-center text-black text-sm  "><i class="fa-solid fa-arrow-right -rotate-45 "></i></span>     
             </div>
-          
           </div>
-
         </div>
 
-        <!-- second image -->
-        
-            <img class=" py-3 px-3 border-2 border-[#E9E9E9] rounded-lg w-full " src="./image/img2.png" alt="">
+        <!-- 2nd image -->
+        <div class="py-3 px-3 border-2 border-[#E9E9E9] rounded-xl">
+          <img class="w-full" src="./image/img2.png" alt="">
+        </div>
+
+        <!-- 3rd image -->
+        <div class="py-3 px-3 border-2 border-[#E9E9E9] rounded-xl">
+          <img class="w-full" src="./image/img3.png" alt="">
+        </div>
+        <!-- again card -->
+
+        <div class="flex lg:flex-row  lg:col-span-2 flex-col">
+          <figure class=" ">
+            <img class="w-full"
+              src="./image/img1.png"
+              alt="Movie" />
+          </figure>
+          <div class="flex flex-col ">
+            <h2 class="">New movie is released!</h2>
+            <p>Click the button to watch on Jetflix app.</p>
+            <div class="flex  gap-3 ">
+              
+              <button class="">View Details</button>
+              <span class="bg-primary w-7 h-7 p-1 rounded-2xl text-center text-black text-sm  "><i class="fa-solid fa-arrow-right -rotate-45 "></i></span>     
+            </div>
+          </div>
+        </div>
+
+        <!-- 4th image -->
+        <div class="py-3 px-3 border-2 border-[#E9E9E9] rounded-xl">
+          <img class="w-full" src="./image/img5.png" alt="">
+        </div>
+
+        <div class="lg:hidden py-3 px-3 border-2 border-[#E9E9E9] rounded-xl ">
+          <img class="w-full" src="./image/img3.png" alt="">
+        </div>
+
       </div>
 
-
-          <!-- another part start here -->
-          <div class="grid lg:grid-cols-4 grid-cols-1 gap-4 ">
-            <div>
-              <img class="py-3 px-3 border-2 border-[#E9E9E9] rounded-lg w-full" src="./image/img3.png" alt="">
-            </div>
-            <div class="flex lg:flex-row  flex-col     gap-6 py-3 px-3 border-2 border-[#E9E9E9] rounded-lg col-span-2 w-full" >
-         
-              <img class="object-cover" src="./image/img1.png" alt="">
-            <div class="flex flex-col gap-3 lg:pt-5">
-              <h5 class="font-extrabold text-lg text-[#494949]">Commercial</h5>
-              <p class="text-xs font-bold text-[#737373]  "> The barn house captivates with its blend of rustic charm <br>and modern. The barn house captivates with its blend of <br> rustic charm and modern .</p>
-              <div class="flex  gap-2 ">
-                <a class="font-extrabold text-text">View Details</a>                     
-                <span class="bg-primary w-7 h-7 p-1 rounded-2xl text-center text-black text-sm  "><i class="fa-solid fa-arrow-right -rotate-45 "></i></span>       
-              </div>
-            </div>
-            </div>
-            <div>
-              <img class="py-3 px-3 border-2 border-[#E9E9E9] rounded-lg w-full object-cover" src="./image/img5.png" alt="">
-            </div>
-            <div class="">
-              <img class="py-3 px-3 border-2 border-[#E9E9E9] rounded-lg w-full object-cover" src="./image/img5.png" alt="">
-            </div>
-            
-          </div>
-        
-
-
-
-          <!-- another part end here -->
+        <!-- another part end here -->
 
     </section>
 
@@ -332,8 +334,8 @@
           <section class="bg-[url('./image/bg.jpg')] bg-center bg-no-repeat bg-cover py-10 border-y-2 border-[#fff]">
         <div class=" w-11/12 mx-auto">
           <div class="text-center my-8">
-            <button class="bg-[#ABEF5F33] px-2 py-2 rounded-2xl text-xs font-bold text-[#494949] my-1"><i class="fa-solid fa-arrow-right mr-1"></i>Explore our Latest works</button>
-              <h1 class="text-text font-extrabold text-3xl my-3">Our Latest Portfolio</h1>
+            <button class="bg-[#ABEF5F33] px-2 py-2 rounded-2xl text-xs font-bold text-[#494949] my-1"><i class="fa-solid fa-arrow-right mr-1"></i>Let’s Connect</button>
+              <h1 class="text-text font-extrabold text-3xl my-3">Let’s Discuss Next Project</h1>
               <p class="text-[#494949] font-bold text-xs my-3">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
           </div>
 
